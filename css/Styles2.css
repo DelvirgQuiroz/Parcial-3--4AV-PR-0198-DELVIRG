@@ -1,0 +1,212 @@
+h1,h2,h3,h4,h5,h6 {
+margin:0 ;
+padding 0;
+}
+.Container{
+    width: 920px;
+    margin: 0 auto;
+}
+#Encabezado { 
+     height: 150px;
+     display: flex;
+     justify-content: space-between;
+     align-content: flex-start;
+     align-content: center;
+    font-family: monospace; color:  darkslategray;
+}
+#Encabezado figure{
+    margin: 0;
+    
+}
+.titulo * {
+    margin: 0;
+}
+#Encabezado h1{font-size: 1.4em }
+#Encabezado h2{font-size: 1.3em}
+#Encabezado h3{font-size: 1.2em}
+#Encabezado h4{font-size: 1.1em}
+
+#Buscar{
+    padding: 5px;
+}
+
+#Menu{
+    height: 50px;
+    display: flex;
+    background-color: green;
+    justify-content: center;
+    font-family: cursive;
+}
+#Menu li a{
+    text-decoration: none;
+    color: black;    
+}
+#Menu li{
+    list-style-type: none;
+    padding: 20px;
+   
+}
+#Menu li a:hover{
+    padding:  7px;
+    background-color: greenyellow;
+    transition: 0,5s;
+}
+.Conetenido{
+    
+}
+#Cartelera{
+    height:  360px; 
+    display: flex;
+    box-shadow: 0 0 15px grey;
+    
+}
+#Cartelera img{
+    border: 10px solid green;
+    width: auto;
+}
+#Nota-Secundaria{
+    min-height:  300px;
+    padding: 10px;
+    
+}
+.img-nota-secundaria{
+    position: relative;
+}
+.img-nota-secundaria span{
+    font-variant: small-caps;
+    position: absolute;
+    top: 10px;
+    left: -5px;
+    padding: 5px 10px;
+    background-color: lawngreen;
+}
+#Nota-Secundaria article{
+background-image: url('../images/separador-nota-secundaria.png');
+background-repeat: no-repeat;
+background-position: bottom;
+padding-bottom: 40px;
+margin-bottom: 20px;
+display: flex;
+    
+}
+.sombra-imagen {
+    box-shadow: 0px 0px 5px darkgray;
+}
+.titulo-pelicula{
+    color: green;
+    line-height: 0,9em;
+    font-variant: small-caps;
+    
+}
+.Informacion-pelicula {
+    padding-left: 20px;
+    padding-right: 10px;
+}
+.intro-pelicula {
+    text-align: justify;
+    margin: 10px 0;
+}
+
+.boton{
+    display: flex;
+    background-color: darkgreen;
+    display: inline-block;
+    justify-content: space-between 10px;
+    padding: 3px;
+    box-shadow:  0px 1px 3px blue;
+}
+.boton>div {
+    padding: 3px 10px;
+    border: 1px solid rgba(225,255,255,.7); 
+}
+.boton p{
+    color: black;
+    font-variant: small-caps;
+    font-size: 1.1em;
+    
+}
+#Publicidad{
+    min-height: 300px;
+    display: flex;
+}
+
+#redes-sociales{
+    text-align: center;
+    margin-bottom: 10px;
+    display: flex;
+}
+.facebook ,.twitter ,.compartir{
+    width: 33px;
+    height: 33px;
+    display: inline-block;
+    text-indent: -9999px;
+    transition: 0.5s;
+}
+.facebook {
+    background: url('../images/facebook_twitter.png') 0 0;
+}
+.twitter {
+    background: url('../images/facebook_twitter.png') -43px -43px;
+}
+.facebook:hover {
+    background: url('../images/facebook_twitter.png') 0 -43px;
+}
+.twitter:hover {
+    background: url('../images/facebook_twitter.png') -43px 0;
+}
+.img-publicidad {
+    position: relative;
+    display: flex;
+}
+
+.img-publicidad span{
+   font-variant: small-caps;
+    position: absolute;
+    top: 10px;
+    left: -5px;
+    padding: 5px 10px;
+    background-color: lawngreen;
+}
+
+#politicas {
+   text-align: center;
+   border-top: 3px double lightgreen;
+   border-bottom: 3px double lightgreen;
+   padding: 3px 0; 
+   color: darkgray;
+}
+#politicas abbr{
+    cursor: help;
+    border-bottom: 1px dotted lightgray;
+}
+
+
+#logo-cine-sin{
+    background-image: url(../images/Sin%20t%C3%ADtulo.png);
+    height: 60px;
+    width:  215px;
+    display: block;
+    text-indent: -9999px;
+    margin: auto;
+}
+
+
+#logo-cine-sin::before, #logo.cine-sin ::after {
+    background-image: url(../images/separador-nota-secundaria.png);
+
+    
+}
+#logo-cine-sin::before{
+    right: 0;
+}
+#logo-cine-sin::after{
+    left: 0;
+}
+
+
+#derechos-de-autor p{
+    text-align: center;
+    font-size: 0,7;
+    color: lightgreen;
+    
+}
