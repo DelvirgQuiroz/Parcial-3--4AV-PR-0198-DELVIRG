@@ -12,7 +12,8 @@ padding 0;
      justify-content: space-between;
      align-content: flex-start;
      align-content: center;
-    font-family: monospace; color:  darkslategray;
+    
+    
 }
 #Encabezado figure{
     margin: 0;
@@ -21,10 +22,7 @@ padding 0;
 .titulo * {
     margin: 0;
 }
-#Encabezado h1{font-size: 1.4em }
-#Encabezado h2{font-size: 1.3em}
-#Encabezado h3{font-size: 1.2em}
-#Encabezado h4{font-size: 1.1em}
+
 
 #Buscar{
     padding: 5px;
@@ -66,11 +64,16 @@ padding 0;
 }
 #Nota-Secundaria{
     min-height:  300px;
-    padding: 10px;
+    width: 700px;
+    display: inline-block;
     
 }
 .img-nota-secundaria{
     position: relative;
+    width:343px;
+    height: 177px;
+    display: inline-flex;
+    
 }
 .img-nota-secundaria span{
     font-variant: small-caps;
@@ -109,7 +112,7 @@ display: flex;
 
 .boton{
     display: flex;
-    background-color: darkgreen;
+    background-color: red;
     display: inline-block;
     justify-content: space-between 10px;
     padding: 3px;
@@ -126,8 +129,20 @@ display: flex;
     
 }
 #Publicidad{
-    min-height: 300px;
-    display: flex;
+    height: 300px;
+    width: 220px;
+    
+}
+#Numeracion a{
+    padding: 10px 5px;
+    text-decoration: underline;
+    color: green;
+}
+
+#Numeracion{
+    display: inline-flex;
+    font-family: cursive;
+    font-size: 0,8;
 }
 
 #redes-sociales{
@@ -158,6 +173,9 @@ display: flex;
     position: relative;
     display: flex;
 }
+.Flexible{
+    display: flex;
+}
 
 .img-publicidad span{
    font-variant: small-caps;
@@ -168,6 +186,34 @@ display: flex;
     background-color: lawngreen;
 }
 
+#Peliculas-nuevas{
+  display:flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 10px;
+  
+}
+#Publicidad-xD img{
+    height: 250px;
+}
+.Buton{
+    display: flex;
+    background-color: blue;
+    display: inline-block;
+    justify-content: space-between 20px;
+    padding: 3px;
+    box-shadow:  0px 1px 3px blue;
+}
+.Buton>div {
+    padding: 3px 10px;
+    border: 1px solid rgba(225,255,255,.7); 
+}
+.Buton p{
+    color: black;
+    font-variant: small-caps;
+    font-size: 0,9em;
+    
+}
 #politicas {
    text-align: center;
    border-top: 3px double lightgreen;
@@ -189,20 +235,6 @@ display: flex;
     text-indent: -9999px;
     margin: auto;
 }
-
-
-#logo-cine-sin::before, #logo.cine-sin ::after {
-    background-image: url(../images/separador-nota-secundaria.png);
-
-    
-}
-#logo-cine-sin::before{
-    right: 0;
-}
-#logo-cine-sin::after{
-    left: 0;
-}
-
 
 #derechos-de-autor p{
     text-align: center;
